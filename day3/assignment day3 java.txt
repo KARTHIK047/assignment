@@ -1,0 +1,39 @@
+import java.util.*;
+class Main{
+    int f;
+    int d;
+    
+    public Main(){
+        f=30;
+    }
+    public Main(int amt){
+        f=amt;
+    }
+    void showFare(){
+        System.out.println("fare :"+f);
+    }
+}
+ public class Ridecab{
+        public static void main(String[]args){
+        int ad;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the distance between user and cab");
+        ad = sc.nextInt();
+    if(ad > 5){
+        Main ob = new Main(30 + 10* (ad - 5));
+        System.out.println("enter the distance travelled");
+        ob.d = sc.nextInt();
+        ob.f=ob.f+10*ob.d;
+        ob.showFare();
+    }
+    else{
+        Main ob=new Main();
+        System.out.println("enter the distance travelled");
+        ob.d=sc.nextInt();
+        
+         ob.f = ob.f + 10 * ob.d;
+        ob.showFare();
+        
+       }
+}
+}
