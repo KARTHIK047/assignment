@@ -1,0 +1,4 @@
+num1=input("enter the fist value:")
+num2=input("enter the second value:")
+sum=int(num1)+int(num2)
+print("sum is ",sum)

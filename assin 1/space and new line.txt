@@ -1,0 +1,4 @@
+'''horizontal space'''
+print("my name is\tkarthik")
+'''new line'''
+print("my name is\nkarthik")

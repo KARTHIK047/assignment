@@ -1,0 +1,12 @@
+name=input("enter the name:")
+year=input("enter the year:")
+sum=str(name)+int(year)
+print("email id formate is  ",sum)
+
+'''enter the name:karthik
+enter the year:2000
+
+Traceback (most recent call last):
+ File "main.py", line 11, in <module>
+sum=str(name)+int(year)
+TypeError: Can't convert 'int' object to str implicitly'''

@@ -1,0 +1,5 @@
+name=input("name of the course:")
+days=input("no of days of python course:")
+time=input("time of each class:")
+
+print (f'I am learning a course called "{name}" for {days} days of {time} min each class ')
