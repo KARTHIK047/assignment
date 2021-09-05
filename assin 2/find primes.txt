@@ -1,0 +1,9 @@
+num={2,3,5,8,9,7,6,4,3,33,66,55,85}
+for j in num:
+        for i in range(2,j):
+            if j%i==0:
+                i+=1
+                print(f"{j} is not a prime num")
+                break
+        else:
+             print(f'{j} is prime num')
